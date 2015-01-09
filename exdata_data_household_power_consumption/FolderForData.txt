@@ -1,1 +1,0 @@
-This is the folder where data file is to be extracted.
