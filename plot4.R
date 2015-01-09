@@ -55,7 +55,9 @@ plot(consumptionDataSubset$Date,consumptionDataSubset$Voltage,type="l",xlab="dat
 plot(consumptionDataSubset$Date,consumptionDataSubset$Sub_metering_1,type="l",xlab="",ylab="Energy sub metering")
 points(consumptionDataSubset$Date,consumptionDataSubset$Sub_metering_2,type="l",col="red")
 points(consumptionDataSubset$Date,consumptionDataSubset$Sub_metering_3,type="l",col="blue")
-legend("topright",lty=c(1,1,1),col=c("black","red","blue"),legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"))
+
+# make sure to have the inset so that the box.lty=0 does not wipe out the border associated with main plot
+legend("topright",inset = .02,box.lty=0,lty=c(1,1,1),col=c("black","red","blue"),legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"))
 
 # plot for 2nd row 2nd column
 plot(consumptionDataSubset$Date,consumptionDataSubset$Global_reactive_power,type="l",xlab="datetime",ylab="Global_reactive_power")
