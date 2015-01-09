@@ -1,7 +1,8 @@
 #
 # Project Assignment# 1: Exploratory Data Analysis
 # Author: Girish Sherikar
-#
+# plot1.R
+
 # Read in the data supplied
 fileUrl <- "./exdata_data_household_power_consumption/household_power_consumption.txt"
 

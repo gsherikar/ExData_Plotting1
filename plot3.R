@@ -1,6 +1,7 @@
 #
 # Project Assignment# 1: Exploratory Data Analysis
 # Author: Girish Sherikar
+# plot3.R
 #
 # Read in the data supplied and store data in memory
 
